@@ -25,10 +25,10 @@
 
     - variable: "lb_domain"
       type: "string"
+      required: true
       label: "Load balancer domain"
       description: "Domain to use for load balancer"
       default: "local"
-      required: true
 
     - variable: "master_heap_size"
       type: "string"
